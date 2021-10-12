@@ -77,7 +77,7 @@ const HBCFactory = new OrgFactory('HBC');
 HBCFactory.addEmployees([
   new SoftwareEngineer(),
   new MarketingManager(),
-  // new AccountManager(),
+  new AccountManager(),
 ]);
 
 // try to comment any manager class and provide its data in find HBCFactory.findEmployee() method,
