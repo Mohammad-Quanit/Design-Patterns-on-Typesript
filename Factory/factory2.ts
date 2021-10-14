@@ -43,6 +43,7 @@ namespace FactoryDP {
     }
   }
 
+  // this CarFacotry class is responsible for creating factory classes
   const carFactory = new CarFactory().getCarInstance(1);
   carFactory!.color = 'Black';
 
