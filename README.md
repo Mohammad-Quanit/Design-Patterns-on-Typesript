@@ -1,7 +1,6 @@
-# Design Patterns implementation in TypeScript
+# REST API using MVC Design Pattern
 
-A dedicated repo to learn design pattern in typescript
+This branch contains all the code exampoles of MVC pattern including a REST API in API folder
 
-For executing TSC code, ive create a script on `Makefile`. 
-
-Type `make run file=filename`, it will compile and run js from dist folder.
+For runnning this REST Program:
+Type `make run`, it will compile and run js from dist folder.

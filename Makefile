@@ -1,5 +1,5 @@
 run:
-	yarn run dev
+	cd API && yarn run dev
 
 git:
 	git add .
