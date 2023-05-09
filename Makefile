@@ -1,5 +1,5 @@
 run:
-	cd API && tsc && node ./dist/index.js
+	yarn run dev
 
 git:
 	git add .

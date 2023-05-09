@@ -14,7 +14,7 @@ class PostModel {
     return this.posts;
   }
 
-  //ave pot top DB
+  //save pot top DB
   addPost(post: Post) {
     this.posts.push(post);
   }
