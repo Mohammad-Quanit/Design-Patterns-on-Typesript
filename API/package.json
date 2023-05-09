@@ -1,0 +1,9 @@
+{
+  "name": "scylladb-typescript",
+  "version": "1",
+  "description": "Rest api on TS using scylla-db",
+  "main": "dist/index.js",
+  "author": "mquanit",
+  "license": "MIT",
+  "private": false
+}
