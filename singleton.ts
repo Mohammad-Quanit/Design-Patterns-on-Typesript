@@ -1,15 +1,15 @@
 // ********************* example 1 **************************
-class Singleton1 {
-  private static instance: Singleton1;
-  private constructor() {}
+class SingletonPattern {
+  private static instance: SingletonPattern
+  constructor() {}
+
   static getInstance() {
-    if (!Singleton1.instance) {
-      Singleton1.instance = new Singleton1()
+    if(!SingletonPattern.instance) {
+      SingletonPattern.instance = this
     }
-    return Singleton1.instance
+    return SingletonPattern.instance
   }
 }
-console.log(Singleton1.getInstance() === Singleton1.getInstance())
 
 // ********************* example 2 **************************
 class EnvVars {
